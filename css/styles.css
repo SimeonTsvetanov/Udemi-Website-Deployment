@@ -4,6 +4,7 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Sacramento', cursive; */
 
 body {
+    color: 40514E;
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
@@ -21,6 +22,7 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     font-weight: normal;
+    padding-bottom: 10px;
 }
 
 h3 {
@@ -29,7 +31,27 @@ h3 {
 }
 
 p {
-    color: #40514E;
+    line-height: 2;
+}
+
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+hr {
+    clear: both;
+    width: 8%;
+    border: 6px dotted;
+    border-style: none none dotted;
+    color: #EAF6F6;
+    margin: 100px auto;
 }
 
 .top-container {
@@ -39,47 +61,40 @@ p {
 }
 
 .middle-container {
-
+    margin: 100px 0;
 }
 
 .bottom-container {
     background-color: #66BFBF;
-    padding-bottom: 40px;
-    padding-top: 40px;
+    padding: 50px 0 20px;
     line-height: 2rem;
-}
-
-.footer-link {
-    text-decoration: none;
-    padding-left: 2rem;
-    padding-right: 2rem;
 }
 
 .web {
     text-decoration: underline;
 }
 
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
 .top-cloud {
     position: absolute;
     right: 300px;
-    top: 50px;
+    top: 40px;
 }
 
 .bottom-cloud {
     position: absolute;
-    left: 300px;
+    left: 250px;
     bottom: 300px;
-}
-
-a {
-    color: #11999E;
 }
 
 .skill-row {
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
-    line-height: 2;
 }
 
 .code-img {
@@ -94,14 +109,6 @@ a {
     margin-left: 30px;
 }
 
-hr {
-    clear: both;
-    width: 8%;
-    border: 6px dotted;
-    border-style: none none dotted;
-    color: #EAF6F6
-}
-
 /* Button Css was done in css3buttongenerator.com  */
 /* ----------------------------------------------------- */
 .btn {
@@ -114,7 +121,7 @@ hr {
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
     border-radius: 8px;
-    font-family: Arial;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
@@ -130,7 +137,6 @@ hr {
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
 }
-
 /* ---------------------------------------------------------------- */
 
 .contact-me {
@@ -138,6 +144,14 @@ hr {
     margin-bottom: 60px;
 }
 
-.trademark-stamp {
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.copyright {
     color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+    font-family: 'Montserrat', sans-serif;
 }
